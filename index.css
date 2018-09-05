@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /*统一设置*/
 * {
 	margin: 0;
@@ -6,95 +7,86 @@
 }
 
 html {
-	height: 100%;
+	height: 100%;	
 }
 
 body {
-	height: calc(100% - 40px);
-}
-
-html {
-	height: 100%;
+	/*height: calc(100% - 40px);*/
 }
 
 /*设置网页背景*/
 body {
 	background: url(images/main_bg.jpg) no-repeat;
-	background-size: 100% 100%;
-	padding-top:40px ;
+	background-size: 100% 100%;	
+	padding-top: 40px;
 }
 
 /*登陆区主体*/
 #main {
-	width: 350PX;
-	height: 600PX;
-	background: #FFFFFF;
-	margin: 0px auto;/*块级元素居中*/
-	border-top: 8px solid #0cc;
+	width: 350px;
+	height: 600px;
+	background: #ffffff;
+	margin: 0px auto;
+	border-top:8px solid #0cc;
 	border-radius: 5px;
 	position: relative;
 }
 
 /*头像区*/
-#header-boorder {
+#header-border {
 	width: 198px;
 	height: 198px;
-	border-radius:50% ;
-	
+	border-radius: 50%;	
 	margin: 50px auto;
 	position: relative;
 	box-shadow: 0px 0px 20px #ccc;
 }
 
 #header-pic {
-	width: 184PX;
-	height: 184PX;
-	
-	border-radius:50% ;
+	width: 184px;
+	height: 184px;	
+	border-radius: 50%;
 	position: absolute;
-	left: 7px;
-	top: 7px;
+	left:7px;
+	top:7px;
 	background: url(images/liudehua.jpg) no-repeat;
 	background-size: cover;
 }
 
-/*账号密码区*/
+/*账号密码区域*/
 #account {
 	width: 75%;
 	padding: 5px;
 	box-shadow: 1px 1px 5px 1px #CCCCCC;
-	margin: 0 auto;
-	border-radius:5px ;
-	
+	margin: 0 auto;	
+	border-radius: 5px;	
 }
 
-#account .input {
+#account .input {	
 	line-height: 45px;
 	overflow: hidden;
 }
 
 #account .input label {
-	width: 30%;
-	display: block;
+	width: 30%;	
 	float: left;
 	font-size: 16px;
-	color: #999999;
-
+	color: #999999;	
 }
 
 #account .input input {
-	width: 60%;
-	display: block;
+	width: 70%;
+	height: 30px;	
 	float: left;
-	height: 30px;
 	border: none;
+	outline: none;	
 	margin-top: 7.5px;
-	color: #00CCCC;
+	color: #00CCCC;	
 	font-size: 16px;
 }
 
 .border-bottom {
-	border-bottom: 1px solid #CCCCCC;
+	border-bottom: 1px solid #cccccc;
 }
 
 /*登陆按钮*/
@@ -102,31 +94,30 @@ body {
 	display: block;
 	height: 40px;
 	width: calc(75% + 10px);
-	margin: 30px auto;
+	margin: 30px auto;	
 	border: none;
-	border-radius:5px ;
+	outline: none;
+	border-radius: 5px;
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 14px;
 	background: linear-gradient(#00cccc,#00b0b0);
 	box-shadow: 1px 1px 2px 1px #CCCCCC;
 	cursor: pointer;
-	
 }
 
 .login-btn:active {
 	position: relative;
-	top: 2px;
+	top:2px;
 }
 
 /*登陆区底部*/
-
 #footer {
 	width: 100%;
-	position: absolute;
-    bottom: 0;
-    line-height: 50px;
-    text-align: center;
-    border-top: 1px solid #CCCCCC;
+	position: absolute;	
+	bottom: 0;
+	line-height: 50px;
+	text-align: center;
+	border-top: 1px solid #CCCCCC;	
 }
 
 #footer a {
